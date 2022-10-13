@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Lesson_10</title>
   </head>
   <body>
@@ -34,19 +36,17 @@
               neque in massa. Feugiat leo nam nisl lacinia amet, odio. Mi varius
               viverra risus vel.
             </p>
-            <div>
-              <p>
-                Amet, morbi sed pharetra, elit eget mi potenti. Condimentum orci
-                interdum feugiat lectus libero duis. Nisl massa, elementum
-                varius sit. Nunc felis, porttitor aliquam urna, accumsan et sed.
-                Aliquet non sed duis diam vehicula rhoncus. In dictum nullam
-                tincidunt semper pellentesque purus morbi sed. Ut aliquet velit
-                pharetra, nisi nunc, non.
-              </p>
-            </div>
+            <p>
+              Amet, morbi sed pharetra, elit eget mi potenti. Condimentum orci
+              interdum feugiat lectus libero duis. Nisl massa, elementum varius
+              sit. Nunc felis, porttitor aliquam urna, accumsan et sed. Aliquet
+              non sed duis diam vehicula rhoncus. In dictum nullam tincidunt
+              semper pellentesque purus morbi sed. Ut aliquet velit pharetra,
+              nisi nunc, non.
+            </p>
           </div>
           <div class="article__quote">
-            <p>
+            <p class="quote">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo,
               amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar
               eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis
@@ -60,9 +60,12 @@
               erat mattis. Vitae mus blandit in neque amet non fringilla
               blandit:
             </p>
-            <ul class="article_list list">
+            <ul class="article__list list">
               <li>
-                A fermentum in morbi pretium aliquam adipiscing donec tempus.
+                A fermentum in morbi pretium aliquam adipiscing donec tempus. A
+                fermentum in morbi pretium aliquam adipiscing donec tempus. A
+                fermentum in morbi pretium aliquam adipiscing donec tempus. A
+                fermentum in morbi pretium aliquam adipiscing donec tempus.
               </li>
               <li>Vulputate placerat amet pulvinar lorem nisl.</li>
               <li>
@@ -108,14 +111,128 @@
               tortor.
             </li>
           </ul>
-          <a href="" class="about__button button">More about us</a>
+          <div class="about__button">
+            <a href="#" class="button">More about us</a>
+          </div>
         </div>
       </section>
       <section class="courses">
-        <div class="courses__container"></div>
+        <div class="courses__container">
+          <div class="courses__title title">
+            <h3 class="title__item-pre-title">Who we are</h3>
+            <h2 class="title__item">Why Createx?</h2>
+          </div>
+          <div class="about__button">
+            <a href="#" class="button button__outline">View all courses</a>
+          </div>
+          <ul class="courses-cards cards">
+            <li class="cards__item item">
+              <div class="item__photo">
+                <img src="./img/Jerome Bell.jpg" alt="photo of the teacher" />
+              </div>
+              <p class="item__badge">Management</p>
+              <h3 class="item__position">
+                The Ultimate Google Ads Training Course
+              </h3>
+              <p class="item__info">
+                <span class="item__info--red-color">$100</span> | by Jerome Bell
+              </p>
+            </li>
+            <li class="cards__item item">
+              <div class="item__photo">
+                <img
+                  src="./img/Leslie Alexander Li.jpg"
+                  alt="photo of the teacher" />
+              </div>
+              <p class="item__badge">HR & Recruting</p>
+              <h3 class="item__position">HR Management and Analytics</h3>
+              <p class="item__info">
+                <span class="item__info--red-color">$200</span> | by Leslie
+                Alexander Li
+              </p>
+            </li>
+            <li class="cards__item item">
+              <div class="item__photo">
+                <img
+                  src="./img/Dianne Russell.jpg"
+                  alt="photo of the teacher" />
+              </div>
+              <p class="item__badge">Management</p>
+              <h3 class="item__position">Business Development Management</h3>
+              <p class="item__info">
+                <span class="item__info--red-color">$400</span> | by Dianne
+                Russell
+              </p>
+            </li>
+            <li class="cards__item item">
+              <div class="item__photo">
+                <img
+                  src="./img/Marvin McKinney.jpg"
+                  alt="photo of the teacher" />
+              </div>
+              <p class="item__badge">Management</p>
+              <h3 class="item__position">Prduct Management Fundamentals</h3>
+              <p class="item__info">
+                <span class="item__info--red-color">$480</span> | by Marvin
+                McKinney
+              </p>
+            </li>
+            <li class="cards__item item">
+              <div class="item__photo">
+                <img
+                  src="./img/Kristin Watson.jpg"
+                  alt="photo of the teacher" />
+              </div>
+              <p class="item__badge">Management</p>
+              <h3 class="item__position">
+                Brand Management & PR Communications
+              </h3>
+              <p class="item__info">
+                <span class="item__info--red-color">$530</span> | by Kristin
+                Watson
+              </p>
+            </li>
+            <li class="cards__item item">
+              <div class="item__photo">
+                <img src="./img/Guy Hawkins.jpg" alt="photo of the teacher" />
+              </div>
+              <p class="item__badge">Design</p>
+              <h3 class="item__position">Graphic Design Basic</h3>
+              <p class="item__info">
+                <span class="item__info--red-color">$500</span> | by Guy Hawkins
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="benefits">
-        <div class="benefits__container"></div>
+        <div class="benefits__container">
+          <div class="benefits__title title">
+            <h3 class="title__item-pre-title">Our benefits</h3>
+            <h2 class="title__item">That’s how we do it</h2>
+            <ul class="benefits__tabs tabs">
+              <li class="tabs__item">Experienced Tutors</li>
+              <li class="tabs__item">Feedback & Support</li>
+              <li class="tabs__item">24/7 Online Library</li>
+              <li class="tabs__item">Community</li>
+            </ul>
+            <div class="benefits__content benefits-content">
+              <h2 class="benefits-content__title">Only practicing tutors</h2>
+              <p class="benefits-content__text">
+                Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames
+                dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis
+                mollis augue. Nunc, sodales tortor sit diam mi amet massa.
+                Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id
+                dignissim massa ut amet. Amet enim, nisi tempus vehicula.
+              </p>
+              <div class="benefits-illustration">
+                <img
+                  src="./img/benefits-illustration.png"
+                  alt="хлопись і дивчина за робочим місчцем" />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer></footer>
